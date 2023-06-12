@@ -4,10 +4,11 @@
 
 # Specify desired highlighting theme (e.g. "TwoDark"). Run `bat --list-themes`
 # for a list of all available themes
---theme="Catppuccin-mocha"
+# load theme with bat cache --build
+--theme="Catppuccin-mocha" #https://github.com/catppuccin/bat
 
 # plain styling
---style="header-filename,numbers,rule"
+--style="header-filename,grid"
 
 # Enable this to use italic text on the terminal. This is not supported on all
 # terminal emulators (like tmux, by default):
