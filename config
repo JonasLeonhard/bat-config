@@ -8,7 +8,7 @@
 --theme="Catppuccin-mocha" #https://github.com/catppuccin/bat
 
 # plain styling
---style="header-filename,grid"
+--style="plain"
 
 # Enable this to use italic text on the terminal. This is not supported on all
 # terminal emulators (like tmux, by default):
